@@ -1,0 +1,49 @@
+.large-menu{
+  overflow: hidden;
+  padding: 15px;
+  position: relative;
+}
+
+.menu-subheading{
+  padding-bottom: 9px;
+}
+
+.large-menu a{
+  text-decoration: none;
+}
+
+.white-links{
+  color: white;
+  text-decoration: underline;
+}
+
+
+
+@media only screen and (min-width: 992px) {
+  .large-menu{
+    width: 580px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .navbar-collapse {
+  max-height: calc(100vh - 60px);
+  overflow-y: auto;
+
+  }
+  .navbar-collapse .large-menu{
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .large-menu{
+    width: 650px;
+  }
+}
+
+@media only screen and (min-width: 1300px) {
+  .large-menu{
+    width: 800px;
+  }
+}
